@@ -1565,6 +1565,9 @@ a.article-list-title:hover {
 .widget-entry-thumbnail{
   width: 40%;
 }
+.widget-entry-thumbnail a img{
+  object-fit: cover;
+}
 .widget-entry-summary{
   width: 57%;
   padding-left: 3%;
