@@ -1460,6 +1460,7 @@ a.article-list-title:hover {
 }
 .article-list-entry{
   font-size: 16px;
+  line-height: 1.7em;
   text-align: justify;
   color:#555;
 }
