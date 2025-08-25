@@ -1391,7 +1391,14 @@ pre .javascript .function {
   display: inline-block;
 }
 
-.tag-list-item, .archive-list-item{
+.tag-list-item{
+  display: inline-block;
+  padding:0 15px 12px 0;
+}
+.widget a.tag-list-link{
+  font-size: 18px;
+}
+.archive-list-item{
   padding-bottom: 5px;
   border-bottom: 1px solid #ccc;
 }
