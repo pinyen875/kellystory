@@ -361,7 +361,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/blue.png") center #000;
+  background: url("images/blue.png") center;
   background-size: cover;
   z-index: -1;
 }
@@ -928,6 +928,7 @@ a.article-title:hover {
 .article-gallery-img {
   display: none;
   max-width: 100%;
+  background-color: #fff;
 }
 .article-gallery-img:first-child {
   display: block;
