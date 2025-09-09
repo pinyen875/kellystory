@@ -1454,6 +1454,21 @@ pre .javascript .function {
 a.article-list-title:hover {
   color: #258fb8;
 }
+.article-list-meta{
+  display: flex;
+}
+.article-list-meta .article-tag-list{
+  padding-left: 12px;
+}
+.article-list-meta .article-tag-list a{
+  text-decoration: none;
+  color:#282828;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.article-list-meta .article-tag-list-link:before {
+    content: "";
+}
 .article-list-date{
   padding: 0;
   margin: 0;
@@ -1461,8 +1476,8 @@ a.article-list-title:hover {
   text-transform: uppercase;
   letter-spacing: 0;
   color: #555;
-  margin-bottom: 1em;
-  line-height: 1em;
+  /*margin-bottom: 1em;
+  line-height: 1em;*/
   text-shadow: 0 1px #fff;
   font-weight: bold;
 }
